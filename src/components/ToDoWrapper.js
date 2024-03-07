@@ -1,9 +1,10 @@
 import React from "react";
+import ToDoForm from "./ToDoForm";
 
 export const ToDoWrapper = () => {
     return (
-        <div>
-            <h1>To Do Wrapper</h1>
+        <div className="TodoWrapper">
+            <ToDoForm />
         </div>
     );
 };
