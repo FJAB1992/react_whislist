@@ -1,7 +1,7 @@
 ## Crear proyecyo react
 ```npx create-react-app [app-name]```
 
-## Actualizar paquetes
+## Instalar librería UUID
 ```npm i uuid```
 
 ----------------------------------------------
