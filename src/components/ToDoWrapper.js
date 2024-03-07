@@ -1,3 +1,11 @@
+/**
+ * The ToDoWrapper component manages a list of todos with functionalities to add, toggle completion,
+ * delete, edit tasks, and display todo items.
+ * @returns The `ToDoWrapper` component is being returned. Inside the component, there is a div with
+ * the className "TodoWrapper" containing an h1 element with the text "Tareas pendientes". It also
+ * includes a `ToDoForm` component for adding new todos and maps over the `todos` array to display each
+ * todo item. Each todo item is rendered either as an `EditToDoForm` component
+ */
 import React, { useState } from "react";
 import ToDoForm from "./ToDoForm";
 import { v4 as uuidv4 } from 'uuid';

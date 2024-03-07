@@ -1,3 +1,10 @@
+/**
+ * The ToDoForm component is a form in React that allows users to input and submit tasks to be added to
+ * a to-do list.
+ * @returns The `ToDoForm` component is being returned, which is a form for adding a new todo item. It
+ * consists of an input field for entering the todo item, a submit button for adding the todo item, and
+ * a form element that handles the submission of the todo item.
+ */
 import React, { useState } from "react";
 
 export const ToDoForm = ({ addTodo }) => {
