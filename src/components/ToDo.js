@@ -1,10 +1,17 @@
 import React from "react";
-
-export const ToDo = () => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
+import { faTrash } from '@fortawesome/free-solid-svg-icons'
+export const ToDo = ({task}) => {
     return (
-        <div>
-            <h1>To Do</h1>
+        <div className="Todo">
+            <p>{task.task}</p>
+            <div>
+                <FontAwesomeIcon icon={faPenToSquare} />
+                <FontAwesomeIcon icon={faTrash} />
+            </div>
         </div>
+        
     );
 };
 
