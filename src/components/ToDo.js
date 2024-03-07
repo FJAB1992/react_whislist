@@ -12,7 +12,8 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 export const ToDo = ({ task, toggleCompleted, deleteTodo, editTodo }) => {
     return (
         <div className="Todo">
-            <p className={`${task.completed ? "completed" : "incompleted"}`} onClick={() => toggleCompleted(task.id)}>{task.task}</p>
+            <p className={`${task.completed ? "completed" : "incompleted"}`}
+                onClick={() => toggleCompleted(task.id)}>{task.task}</p>
             <div>
                 <FontAwesomeIcon icon={faPenToSquare} onClick={() => editTodo(task.id)} />
                 <FontAwesomeIcon icon={faTrash} onClick={() => deleteTodo(task.id)} />
