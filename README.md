@@ -2,7 +2,7 @@
 ```npx create-react-app [app-name]```
 
 ## Actualizar paquetes
-```npm i u uid```
+```npm i uuid```
 
 ----------------------------------------------
 ## Agregar SVG core (Fontawesome)
